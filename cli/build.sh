@@ -27,7 +27,6 @@ function publish() {
   echo "Publish ${repository} - ${version}"
 
   enterDir "repositories/${repository}"
-  cp ../../CHANGELOG.md README.md
   git add -N .
 
   if ! git diff --exit-code >/dev/null; then
@@ -84,6 +83,8 @@ for lang in "${SUPPORTED_LANGUAGES[@]}"; do
   tsproto --path ./proto --output "gen/${lang}"
 
   sudo cp -R "proto/." "gen/${lang}"
+
+  cp CHANGELOG.md "repositories/${repository}/README.md"
 
   # Send new version to Git repository
   sudo cp -R "gen/${lang}/." "repositories/${repository}"
