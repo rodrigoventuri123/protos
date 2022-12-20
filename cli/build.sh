@@ -8,7 +8,7 @@ set -e
 SUPPORTED_LANGUAGES=("nestjs")
 GENERATED_BY=$(git remote get-url origin)
 
-REPOSITORY_PREFIX=example-proto
+REPOSITORY_PREFIX=proto-
 
 # Helper for adding a directory to the stack and echoing the result
 function enterDir() {
