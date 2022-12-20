@@ -88,6 +88,6 @@ for lang in "${SUPPORTED_LANGUAGES[@]}"; do
 
   # Send new version to Git repository
   sudo cp -R "gen/${lang}/." "repositories/${repository}"
-  publish $repository "v1.1.0"
+  publish $repository $version
 
 done
