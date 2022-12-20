@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/rodrigoventuri123/protos/compare/v1.1.0...v1.2.0) (2022-12-20)
+
+
+### Features
+
+* remove comment ([581c770](https://github.com/rodrigoventuri123/protos/commit/581c77086ddf8d3d9914bfafa542c906f494d40f))
+
 # [1.1.0](https://github.com/rodrigoventuri123/protos/compare/v1.0.0...v1.1.0) (2022-12-20)
 
 
