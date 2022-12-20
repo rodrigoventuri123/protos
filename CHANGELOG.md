@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/rodrigoventuri123/protos/compare/v1.4.0...v1.5.0) (2022-12-20)
+
+
+### Features
+
+* testando 123 ([ff36c13](https://github.com/rodrigoventuri123/protos/commit/ff36c13f8f71b0cf67caaeaf1b159db804432737))
+
 # [1.4.0](https://github.com/rodrigoventuri123/protos/compare/v1.3.0...v1.4.0) (2022-12-20)
 
 
