@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/rodrigoventuri123/protos/compare/v1.5.0...v1.6.0) (2022-12-20)
+
+
+### Features
+
+* update version ([728ff7b](https://github.com/rodrigoventuri123/protos/commit/728ff7b34431b598c2da78dd142d880476c1da16))
+
 # [1.5.0](https://github.com/rodrigoventuri123/protos/compare/v1.4.0...v1.5.0) (2022-12-20)
 
 
