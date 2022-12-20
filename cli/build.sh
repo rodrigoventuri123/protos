@@ -10,13 +10,11 @@ GENERATED_BY=$(git remote get-url origin)
 
 REPOSITORY_PREFIX=proto
 
-# Helper for adding a directory to the stack and echoing the result
 function enterDir() {
   echo "Entering $1"
   pushd $1 >/dev/null
 }
 
-# Helper for popping a directory off the stack and echoing the result
 function leaveDir() {
   echo "Leaving $(pwd)"
   popd >/dev/null
