@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/rodrigoventuri123/protos/compare/v1.3.0...v1.4.0) (2022-12-20)
+
+
+### Features
+
+* copy file readme ([b60f5ca](https://github.com/rodrigoventuri123/protos/commit/b60f5ca54b0c802c7e634a7c0c161460c82877ee))
+
 # [1.3.0](https://github.com/rodrigoventuri123/protos/compare/v1.2.0...v1.3.0) (2022-12-20)
 
 
