@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/rodrigoventuri123/protos/compare/v1.0.0...v1.1.0) (2022-12-20)
+
+
+### Features
+
+* update prefix ([df448e7](https://github.com/rodrigoventuri123/protos/commit/df448e7df420178d619d5d17da33d2dc41066f68))
+
 # 1.0.0 (2022-12-20)
 
 
