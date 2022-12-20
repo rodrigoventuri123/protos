@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package customer;
+
+service HandleCustomerService {
+    rpc CreateReportIdWall(CrateReportIdWallRequest) returns (EmptyMessage) {}
+    rpc ValidateReportIdWall(ValidateReportIdWallRequest) returns (EmptyMessage) {}
+}
+
+message ValidateReportIdWallRequest {
+    string num_report = 1;
+}
+
+message CrateReportIdWallRequest {
+    string cpf = 1;
+    string sdk_token = 2;
+    string image_url = 3;
+    string type = 4;
+    string private_url = 5;
+}
+
+message EmptyMessage {}
